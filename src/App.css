@@ -1,5 +1,36 @@
 
+input {
+  margin: 0 20px 0 0;
+}
+
 .App {
-  margin: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
+  margin-left: 400px;
+}
+
+.completed-task {
+  text-decoration: line-through;
+  color: black;
+}
+
+.active-task {
+  text-decoration: none;
+  color: green;
+}
+
+.footer, .list, .filter {
+  padding-top: 20px;
+}
+
+.selected {
+  background: blue;
+  color: white;
+  margin: 5px;
+}
+
+.unselected {
+  background: none;
+  color: black;
+  margin: 5px;
+  border: solid black 1px;
 }
